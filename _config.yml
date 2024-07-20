@@ -17,22 +17,42 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+remote_theme: develinu/just-the-docs
 
-title: Your awesome title
-email: your-email@example.com
+title: BLOG
+email: 0126kcy@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+search_enabled: false
+
+mermaid:
+  version: "9.1.6"
+
+aux_links:
+  "GitHub":
+    - "//github.com/kcyeon0127"
+
+aux_links_new_tab: true
+
+color_scheme: dark
+
+callouts:
+  note:
+    title: 정보
+    color: green
+  warning:
+    title: 주의
+    color: yellow
+  error:
+    title: 경고
+    color: red
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
