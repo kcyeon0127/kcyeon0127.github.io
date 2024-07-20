@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: develinu/just-the-docs
+remote_theme: kcyeon0127/just-the-docs
 
 title: BLOG
 email: 0126kcy@naver.com
