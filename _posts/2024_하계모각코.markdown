@@ -1,7 +1,9 @@
 ---
 layout: default
 title: 2024_하계모각코
-nav_order: 3
+nav_order: 2
 has_childern: true
 permalink: /_docs/2024_하계모각코
 ---
+
+2024 여름방학 하계모각코
